@@ -84,10 +84,22 @@ html{
 }
 
 @media(max-width:900px){
+
+    .panel{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        align-items: stretch;
+        height: 100vh;
+        width: 100%;
+        border-radius: 0px;  
+        margin: 0;
+    }
     
     .pricing-plan{
-        flex-direction: column-reverse;
-        justify-content: flex-start;
+        flex-direction: column;
+        border-right:0px solid #167eda;
+        padding: 0;
     }
-
 }
